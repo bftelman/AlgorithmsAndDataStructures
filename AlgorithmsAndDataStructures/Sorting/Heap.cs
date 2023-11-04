@@ -53,7 +53,7 @@
                 MaxHeapify(arr, i, heapSize);
             }
 
-            for(int i = n - 1; i >= 1; i--)
+            for (int i = n - 1; i >= 1; i--)
             {
                 (arr[0], arr[i]) = (arr[i], arr[0]);
                 heapSize--;
